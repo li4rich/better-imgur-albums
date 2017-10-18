@@ -1,0 +1,31 @@
+#inside {
+    position: absolute;
+    width: 0px !important;
+}
+
+.post-container {
+    width: 90vw !important;
+}
+
+.post-image {
+	width: 90vw !important;
+	height: 90vh !important;
+}
+
+.post-image img {
+	max-height: 90vh !important;
+    width: auto !important;
+	min-height: auto !important;
+	height: -webkit-fill-available !important;
+	display: none !important;
+}
+
+.post-image img.post-image-placeholder {
+	opacity: 1 !important;
+	position: static !important;
+	display: block !important;	
+}
+
+.post-header.fixed {
+	display: none;
+}

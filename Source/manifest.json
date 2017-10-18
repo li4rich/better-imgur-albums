@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Better Imgur Albums",
+	"version": "1.0",
+	"description": "Resizes the imgur albums view to fill up more of your screen",
+	"permissions": ["*://*.imgur.com/a/*"],
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*.imgur.com/a/*"],
+			"css": ["better_imgur_albums.css"]
+		}
+	]
+}
